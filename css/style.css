@@ -1,0 +1,149 @@
+.meinMenu{
+    list-style: none;
+}
+.meinMenu a{
+    padding-right: 20px; 
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.meinGent{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.meinNavbar{
+    padding: 20px;
+}
+#Digital{
+    background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_01.png);
+    background-size: 680px auto;
+    background-position: 85% 40%;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 70px 30px;
+    
+}
+.digitalItem{
+    position: relative;
+}
+.mainBtn{
+    border-color: red;
+    color: red;
+    position: relative;
+}
+.mainBtn:hover::after{
+    width: 100%;
+    
+}
+.mainBtn:hover{
+    color: white;
+    /* background: red; */
+}
+.mainBtn::after{
+    content: '';
+    position: absolute;
+    background-color: red;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .3s;
+
+}
+.col-lg-6 h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.hr-line{
+    width: 80px;
+    border: 2px solid #b9204f;
+    margin:15px 0;
+}
+.hr-pad{
+    margin: 80px 0;
+}
+.future{
+    position: absolute;
+    bottom: -450px;
+}
+.meinfuture{
+    background-color: #E9204F;
+    color:white;
+    padding: 30px;
+    box-shadow: 0 1rem 3rem #DBDBDB;
+}
+.futureBg{
+    background:white;
+    padding: 30px;
+    /* padding-right: 0;  */
+}
+.futureBg:hover{
+    background-color: #E9204F;
+    color:white;
+    box-shadow: 0 1rem 3rem #DBDBDB;
+    transition: .3s;
+}
+.serWork h5{
+    color: #E9204F;
+}
+.strategy{
+    position: relative;
+    background: #D0D0D0;
+    padding-right: 8px;
+    /* padding-top: 10px; */
+    margin-top:10px;
+}
+.strategy h4{
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 25px;
+}
+.strategy i{
+    padding-top: 30px;
+}
+.strategy:hover{
+    background: #E9204F;
+    color:white;
+    transition: .3s ease-in-out;
+}
+.strategy:hover h4{
+    transform: translateX(1.7rem);
+    transition: .5s;
+}
+.strategy:hover .fas.fa-chess-knight{
+    left:5px;
+    /* transform: translateX(1.2rem); */
+    font-size: 3rem;
+    padding-bottom: 10px;
+    transition: left .3s;
+display: block;
+}
+.strategy .fas.fa-chess-knight{
+position: absolute;
+left: -50px;
+display: none;
+}
+#MeinWork{
+    padding-top: 60px;
+}
+.madeDiv h5{
+color: #E9204F;
+}
+.btnhhr h2{
+    padding: 5px 0;
+}
+.mybtn{
+    padding: 0 30px;
+    border-color: #E9204F;
+    background-color: transparent;
+    display: inline-block;
+    font-weight: 600; 
+}
+.photoitem{
+    width: 1140px;
+}
+.archy{
+    /* background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/03-min-1-1024x683.jpg) center center cover; */
+    height: 100px;
+}
